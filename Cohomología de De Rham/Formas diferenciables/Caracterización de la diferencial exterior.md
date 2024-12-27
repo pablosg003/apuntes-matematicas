@@ -1,3 +1,3 @@
-[[Propiedades de la diferencial exterior]], [[La diferencial exterior]]
+[[Propiedades de la diferencial exterior]], [[La diferencial exterior]], [[Complejos y cocomplejos]]
 
 - **Teorema:** 
