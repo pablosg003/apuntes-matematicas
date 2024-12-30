@@ -1,6 +1,6 @@
 [[Complejos de cadena y cocadena]]
 
-- Una secuencia exacta de la siguiente forma se dice exacta corta:$$
+- Una secuencia exacta de la siguiente forma se dice **exacta corta**:$$
 0\longrightarrow A \xrightarrow{f}B \xrightarrow{g}C \longrightarrow 0
 $$
 - Una secuencia de esa forma es exacta corta si y sólo si $f$ es inyectiva y $g$ es suprayectiva.

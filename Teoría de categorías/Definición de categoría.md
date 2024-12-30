@@ -6,4 +6,4 @@
 	- Para cada objeto $A$, existe un morfismo $1_{A}:A\longrightarrow A$ llamado identidad.
 	- Asociatividad: $(h \circ g)\circ f = h \circ(g \circ f)$.
 	- Unidad: $f \circ 1_{A} = f = 1_{B} \circ f$.
-
+- Una subcategoría $\mathcal{C}'\leq\mathcal{C}$ es una categoría que cumple $\mathop{\mathbf{Ob}}(\mathcal{C}')\subseteq \mathop{\mathbf{Ob}}(\mathcal{C})$ y $\mathop{\mathbf{Mor}}(\mathcal{C}')\subseteq \mathop{\mathbf{Mor}}(\mathcal{C})$.
