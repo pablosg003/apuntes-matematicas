@@ -6,3 +6,9 @@
 	- $H_{dR}^{p}(U)$ el $p$-ésimo grupo de cohomología de De Rham de $U$.
 - Tenemos que $H_{dR}^{p}(U)=0$ si $p<0$ o $p>n$.
 - $H_{dR}^{0}(U)=\{f\in \mathcal{C}^{\infty}(U,\mathbb{R}) : df=0\}= \{f\in \mathcal{C}^{\infty}(U,\mathbb{R}) : D_{x}f=0 \hspace{5pt} \forall x \in U\}=$ $\{f\in \mathcal{C}^{\infty}(U,\mathbb{R}) : f \text{ constante en cada componente conexa de } U\}$, así que  $\dim H_{dR}^0(U)$ es el número de componentes conexas por caminos de $U$.
+- Podemos extender el producto exterior a estos grupos:$$
+\begin{align*}
+H^{p}(U)\times H^{q}(U)&\longrightarrow H^{p+q}(U)\\
+([\omega_{1}], [\omega_{2}]) & \longmapsto [\omega_{1}][\omega_{2}]= [\omega_{1}\wedge \omega_{2}]
+\end{align*}
+$$Se comprueba fácilmente que está bien definido.
