@@ -6,8 +6,8 @@ $$Y sobre las aplicaciones suaves $\varphi:U \longrightarrow V$ como:$$
 \begin{array}{rclcl}
 \Omega^{p}(\varphi)=\varphi^{*}:\Omega^{p}(V)&\longrightarrow &\Omega^{p}(U) & & \\
 \omega & \longmapsto & \varphi^{*}(\omega):U & \longrightarrow & \mathop{\mathrm{Alt}}^p(\mathbb{R}^{n}) \\
-&& x & \longmapsto \varphi^{*}(\omega)_{x}
+&& x & \longmapsto & \varphi^{*}(\omega)_{x}
 \end{array}
-$$Donde $\varphi^{*}(\omega)_{x}=\omega_{\varphi(x)}(D_{x}\varphi(v_{1}),\dots,D_{x}\varphi(v_{p}))$.
+$$Donde $\varphi^{*}(\omega)_{x}(v_{1},\dots,v_{p})=\omega_{\varphi(x)}(D_{x}\varphi(v_{1}),\dots,D_{x}\varphi(v_{p}))$.
 
  

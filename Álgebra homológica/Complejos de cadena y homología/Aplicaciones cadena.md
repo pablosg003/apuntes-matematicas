@@ -16,7 +16,7 @@
 f_{*}=H_{*}(f):H_{p}(A_{*})& \longrightarrow H_{p}(B_{*})\\
 [\gamma]&\longmapsto [f_{p}(\gamma)]
 \end{align*}
-$$
+$$Donde se puede comprobar fácilmente que está bien definida como consecuencia de que las aplicaciones cadena conmuten con $d$.
 - Una secuencia exacta corta de complejos de cadena es:
 ```tikz
 \usepackage{tikz-cd}
