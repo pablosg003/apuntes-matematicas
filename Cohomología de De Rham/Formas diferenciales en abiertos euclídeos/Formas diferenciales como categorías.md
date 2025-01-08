@@ -8,6 +8,8 @@ $$Y sobre las aplicaciones suaves $\varphi:U \longrightarrow V$ como:$$
 \omega & \longmapsto & \varphi^{*}(\omega):U & \longrightarrow & \mathop{\mathrm{Alt}}^p(\mathbb{R}^{n}) \\
 && x & \longmapsto & \varphi^{*}(\omega)_{x}
 \end{array}
-$$Donde $\varphi^{*}(\omega)_{x}(v_{1},\dots,v_{p})=\omega_{\varphi(x)}(D_{x}\varphi(v_{1}),\dots,D_{x}\varphi(v_{p}))$.
+$$Donde $\varphi^{*}(\omega)_{x}(v_{1},\dots,v_{p})=\omega_{\varphi(x)}(D_{x}\varphi(v_{1}),\dots,D_{x}\varphi(v_{p}))$. A la forma diferencial $\varphi^{*}\omega$ se la llama el **pullback** de $\omega$ a $U$ mediante $\varphi$. Fácilmente se comprueba que la definición dada es equivalente a:$$
+\varphi^{*}\omega = \sum_{I}(f_{I}\circ \varphi)d\varphi_{i_{1}} \wedge \cdots \wedge d\varphi_{i_{p}}
+$$Donde $\omega=\sum_{I}f_{I}dx_{I}$.
 
  

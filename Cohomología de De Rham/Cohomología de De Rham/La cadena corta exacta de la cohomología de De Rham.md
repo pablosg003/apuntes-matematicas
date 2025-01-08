@@ -1,0 +1,26 @@
+[[Formas diferenciales como categorías]], [[Particiones de la unidad]], [[Definición de los grupos de cohomología de De Rham]]
+
+- **Lema:** Sean $U_{1},U_{2} \subseteq \mathbb{R}^n$ abiertos, $U=U_{1}\cup U_{2}$, denotamos las inclusiones $\iota_{i}:U_{i} \hookrightarrow U$, $\gamma_{i}:U_{1}\cap U_{2}\hookrightarrow U_{i}$, y tomamos $I^{p}(\omega) = (\iota_{1}^{*}(\omega), \iota_{2}^{*}(\omega))$, $J^{p}(\omega_{1},\omega_{2}) = \gamma_{1}^{*}(\omega_{1}) - \gamma_{2}^{*}(\omega_{2})$. Entonces, la siguiente sucesión es exacta corta $\forall p \geq 0$:$$
+0 \longrightarrow  \Omega^{p}(U) \xrightarrow{I^{p}} \Omega^{p}(U_{1})\oplus \Omega^{p}(U_{2}) \xrightarrow{J^{p}}\Omega^{p}(U_{1}\cap U_{2}) \longrightarrow  0
+$$
+	Demostración: En primer lugar, tomamos cualquier inclusión entre abiertos de $\mathbb{R}^{n}$, $\varphi:V \hookrightarrow W$ y una $p$-forma $\omega \in \Omega^{p}(W)$. Por ser una inclusión, $d\varphi_{i}=dx_{i}$, y el pullback de $\omega$ será:$$
+\varphi^{*}\omega = \sum_{I}(f_{I}\circ \varphi)d\varphi_{i_{1}} \wedge \cdots \wedge d\varphi_{i_{p}} = \sum_{I}(f_{I}\circ \varphi)dx_{i_{1}} \wedge \cdots \wedge dx_{i_{p}} = \sum_{I}(f_{I}\circ \varphi)dx_{I}
+$$Aplicando este resultado a $I^{p}=(\iota_{1}^{*}, \iota_{2}^{*})$, tenemos que $I^{p}(\omega) = 0 \iff$$\iota_{1}^{*}\omega=\iota_{2}^{*}\omega=0 \iff$$f_{I} \circ \iota_{1} = f_{I}|_{U_{1}}=0$ y $f_{I} \circ \iota_{2} = f_{I}|_{U_{2}}=0$ para todo $I$, y como $U_{1} \cup U_{2}=U$, ocurre $\iff$$f_{I}=0$ $\forall I$$\iff$$\omega=0$, con lo que tenemos que $I^{p}$ es inyectiva.
+	Ahora, vamos a comprobar que $\mathop{\mathrm{im}}I^{p} \subseteq \ker J^{p}$, basta considerar $J^{p}\circ I^{p}(\omega) =$$\gamma_{1}^{*}\iota_{1}^{*}(\omega)- \gamma_{2}^{*}\iota_{2}^{*}(\omega)$$= \gamma^{*}(\omega) - \gamma^{*}(\omega) = 0$, donde $\gamma:U_{1}\cap U_{2} \hookrightarrow U$. Para el otro contenido, sean $\omega_{1}=\sum f_{I}dx_{I}\in \Omega^{p}(U_{1})$, $\omega_{2}=\sum g_{I}dx_{I}\in \Omega^{p}(U_{2})$ con $J^{p}(\omega_{1},\omega_{2})=0 \implies$$\gamma_{1}^{*}(\omega_{1})=$$\gamma_{2}^{*}(\omega_{2}) \implies$$f_{I}\circ \gamma_{1} = g_{I}\circ \gamma_{2}$ $\forall I \implies f_{I}(x)=g_{I}(x)$ $\forall x \in U_{1}\cap U_{2}$. Entonces, podemos definir funciones suaves:$$
+h_{I}(x) = \left\lbrace \begin{align}
+f_{I}(x) & \text{ si }x \in U_{1} \\
+g_{I}(x) & \text{ si }x \in U_{2}
+\end{align}\right.
+$$Y se tiene de forma inmediata que la forma diferencial $\omega=\sum_{I}h_{I}dx_{I}$ cumple que $I^{p}(\omega) = (\omega_{1},\omega_{2})$.
+	Finalmente, solo falta comprobar que $J^{p}$ es suprayectiva. Para ello, tomamos una partición de la unidad con soporte en $U_{1},U_{2}$, es decir, $p_{i}:U\longrightarrow [0,1]$ suaves con $\mathop{\mathrm{sup}}(p_{i})\subseteq U_{i}$ y $p_{1}+p_{2}=1$. Ahora, dada $\omega=\sum f_{I}dx_{I}\in \Omega^{p}(U_{1}\cap U_{2})$, podemos extender cada $f_{I}$ a $U_{1}$ y $U_{2}$ respectivamente, definiendo:$$
+f_{I,1} = \left\{ \begin{align}
+& p_{2}(x)f(x) & \text{si } x \in U_{1}\cap U_{2} \\
+& 0 & \text{si } x \in U_{1}\setminus U_{2}
+\end{align} \right.
+$$$$
+f_{I,2} = \left\{ \begin{align}
+& -p_{1}(x)f(x) & \text{si } x \in U_{1}\cap U_{2} \\
+& 0 & \text{si } x \in U_{2}\setminus U_{1}
+\end{align} \right.
+$$Y tenemos claramente que $\omega_{1}=\sum f_{I,1}dx_{I}$, $\omega_{2}=\sum f_{I,2}dx_{I}$ cumplen $J^{p}(\omega_{1},\omega_{2}) = \omega$.
+
