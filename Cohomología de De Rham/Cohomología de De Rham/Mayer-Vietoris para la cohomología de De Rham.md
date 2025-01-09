@@ -9,6 +9,6 @@ $$
 \Omega^{p}(U_{1}\cup U_{2}) \cong \Omega^{p}(U_{1})\oplus \Omega^{p}(U_{2}) \text{ y } H_{dR}^{p}(U_{1}\cup U_{2}) \cong H_{dR}^{p}(U_{1})\oplus H_{dR}^{p}(U_{2})
 $$A través de $I^{p}$.
 - **Corolario:** Si $U = U_{1}\cup \cdots \cup U_{r}$, donde $U_{i}$ son abiertos convexos de $\mathbb{R}^n$, entonces $\dim H_{dR}^{p}(U) < +\infty$.
-	Demostración: Lo hacemos por inducción sobre $r$. Para $r=1$, podemos usar el [[Lema de Poincaré]]. Asumimos que es cierto hasta $r$, y para $r+1$, escribimos $V=U_{1}\cup \cdots \cup U_{r}$. Entonces, por Mayer-Vietoris:$$
-H_{dR}^p-1
-$$
+	Demostración: Lo hacemos por inducción sobre $r$. Para $r=1$, podemos usar el [[Lema de Poincaré]]. Asumimos que es cierto hasta $r$, y para $r+1$, escribimos $V=U_{1}\cup \cdots \cup U_{r}$. Entonces, por Mayer-Vietoris, tenemos la secuencia exacta:$$
+H_{dR}^{p-1}(V \cap U_{r+1}) \longrightarrow  H_{dR}^{p}(U) \longrightarrow  H_{dR}^{p}(V) \oplus H_{dR}^{p}(U_{r+1})
+$$Y basta notar que $V \cap U_{r+1} = (U_{1}\cap U_{r+1}) \cup \cdots \cup (U_{r}\cap U_{r+1})$, así que es la unión de $r$ abiertos convexos, y podemos aplicar la hipótesis de inducción. De igual manera, la parte de la derecha está finitamente generada, y por ser exacta esto implica que $H^{p}_{dR}(U)$ también.

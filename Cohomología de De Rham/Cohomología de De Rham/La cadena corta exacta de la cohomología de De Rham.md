@@ -1,4 +1,4 @@
-[[Formas diferenciales como categorías]], [[Particiones de la unidad]], [[Definición de los grupos de cohomología de De Rham]]
+[[Formas diferenciales como categorías]], [[Particiones de la unidad diferenciables]], [[Definición de los grupos de cohomología de De Rham]]
 
 - **Lema:** Sean $U_{1},U_{2} \subseteq \mathbb{R}^n$ abiertos, $U=U_{1}\cup U_{2}$, denotamos las inclusiones $\iota_{i}:U_{i} \hookrightarrow U$, $\gamma_{i}:U_{1}\cap U_{2}\hookrightarrow U_{i}$, y tomamos $I^{p}(\omega) = (\iota_{1}^{*}(\omega), \iota_{2}^{*}(\omega))$, $J^{p}(\omega_{1},\omega_{2}) = \gamma_{1}^{*}(\omega_{1}) - \gamma_{2}^{*}(\omega_{2})$. Entonces, la siguiente sucesión es exacta corta $\forall p \geq 0$:$$
 0 \longrightarrow  \Omega^{p}(U) \xrightarrow{I^{p}} \Omega^{p}(U_{1})\oplus \Omega^{p}(U_{2}) \xrightarrow{J^{p}}\Omega^{p}(U_{1}\cap U_{2}) \longrightarrow  0
