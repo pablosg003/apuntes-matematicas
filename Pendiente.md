@@ -1,2 +1,0 @@
-- Demostraciones de las carpetas: Álgebra homológica, Álgebra alternada, Formas diferenciales, Teoría de categorías
-- Entender el paso de cambiar integral y diferencial exterior en [[Lema de Poincaré]]
