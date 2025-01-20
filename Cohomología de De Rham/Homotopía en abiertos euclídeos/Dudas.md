@@ -1,0 +1,2 @@
+En [[Lema de Poincaré]], la parte de la demostración de meter la diferencial exterior dentro de la integral.
+En [[Invarianza por homotopía de la cohomología de De Rham]] (tma 6.8) se habla de la aplicación inducida por aplicaciones continuas (no suaves), pero tal y como la definimos en [[Formas diferenciales como categorías]] no tendría sentido si no es diferenciable.
