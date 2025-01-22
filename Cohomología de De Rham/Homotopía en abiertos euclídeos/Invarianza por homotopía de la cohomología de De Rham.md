@@ -10,5 +10,6 @@ $$
 $$Es un isomorfismo.
 	Demostración: Homomorfismo inducido por una aplicación continua?? el resto trivial.
 - **Corolario:** Los grupos de cohomología de De Rham son invariantes por homotopía y por homomorfismo en particular.
-- **Corolario:** La cohomología de De Rham define un functor contravariante entre $\mathbf{Top}_{\mathbb{R}}$ (la categoría de abiertos euclídeos con topología inducida y aplicaciones continuas) y $\mathbf{Vec}_{\mathbb{R}}$.
+- **Corolario:** La cohomología de De Rham define functores contravariantes entre $\mathbf{Top}_{\mathbb{R}}$ (la categoría de abiertos euclídeos con topología inducida y aplicaciones continuas) y $\mathbf{Vec}_{\mathbb{R}}$, mediante la asignación $U \mapsto H_{dR}^{p}(U)$ y $\varphi \mapsto H^{p}(\varphi) = \varphi^{*}$.
 - **Corolario:** (Lema de Poincaré, versión 2): Sea $U$ un abierto contractible de $\mathbb{R}^{n}$, entonces $H_{dR}^{0}(U) \cong \mathbb{R}$ y $H_{dR}^{p}(U)\cong 0$ si $p \neq 0$. 
+	Demostración: (con $p \equiv \mathbb{R}^{0}$) trivial. (6 que añadirlo como nota al definir todo)
