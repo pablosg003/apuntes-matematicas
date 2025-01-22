@@ -5,6 +5,7 @@
 - $\mathbf{Dif}$, la categoría de subconjuntos abiertos de $\mathbb{R}^n$ y aplicaciones $\mathcal{C}^{\infty}$.
 - $\mathbf{Vec}_{\mathbb{F}}$, la categoría de espacios vectoriales y aplicaciones lineales sobre un cuerpo $\mathbb{F}$.
 - $\mathbf{Pos}$. la categoría de conjuntos parcialmente ordenados, donde $f:(A,\leq_{A})\longrightarrow (B,\leq_{B})$ son las aplicaciones monótonas, es decir, $a \leq_{A}b \implies f(a)\leq_{B} f(b)$.
+
 - $\mathbf{Rel}$, la categoría de conjuntos y relaciones, es decir, escribimos $f:A\longrightarrow B$ para cualquier $f \subseteq A\times B$, y tomando la composición como:
 $$
 S \circ R = \{(a,c) : \exists b\in B \text{ t.q. } (a,b)\in R \wedge (b,c)\in S\}
