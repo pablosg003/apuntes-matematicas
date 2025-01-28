@@ -1,4 +1,4 @@
-[[Homotopía y homotopía de cadena]], [[El functor de la cohomología de De Rham]], [[Homotopía]]
+[[Homotopía y homotopía de cadena]], [[El functor de la cohomología de De Rham]], [[Homotopía de cadena]]
 
 - **Teorema:** Sean $U\subseteq \mathbb{R}^{n}$, $V\subseteq \mathbb{R}^{m}$ abiertos, $p \in \mathbb{Z}$:
 	- Si $\varphi_{0},\varphi_{1}:U\longrightarrow V$ son homotópicas, entonces:$$
